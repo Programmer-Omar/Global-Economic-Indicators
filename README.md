@@ -78,10 +78,17 @@ graph TD
 * **Solve the Questions**: solving the nine questions using Mysql.
 * **Download the answers**: downloading the csv file of each answer into the local device.
 
----
-
 ### 10- Power BI Visualization:
 * **Unpload the Answers**:
 
 ### 11- Project Publishing and Documentation:
 * soon
+
+___
+
+## Requirments
+* **Python 3.8+**
+* **SQL Databases**: MySQL
+* **Python Libraries:**
+    * pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
+* **Kaggle API Key** (for data downloading)
