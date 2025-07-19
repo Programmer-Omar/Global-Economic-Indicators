@@ -9,17 +9,20 @@ This project demonstrates a complete end-to-end data pipeline built to analyze g
 ```mermaid
 graph TD
     subgraph Data Acquisition
-        A[Kaggle API] -> B[Colab - Python Script]
+        A[Kaggle API] --> B[Colab - Python Script]
     end
+
 
     subgraph Data Processing & Storage
-        B -> C[Clean & Transform in Python]
-        C -> D[MySQL Database]
+        B --> C[Clean & Transform in Python]
+        C --> D[MySQL Database]
     end
+
 
     subgraph Data Visualization
-        D -> E[Power BI]
+        D --> E[Power BI]
     end
 
-    E -> F[End User - Interactive Dashboards]
+
+    E --> F[End User - Interactive Dashboards]
 
