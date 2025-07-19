@@ -34,12 +34,12 @@ graph TD
 ## Project Steps:
 
 ### 1- Set Up the Environment:
-* Tools Used: Google Colab, Python, SQL (MySQL), Power BI
+* Tools Used: Google Colab, Python, SQL (MySQL), Power BI.
 
 ### 2- Set Up Kaggle API:
 * **API Setup**: Obtain your Kaggle API token from Kaggle by navigating to your profile settings and downloading the JSON file.
 * **from google colab**:
-    * run thiss code: from google.colab import files, files.upload()
+    * run this code: from google.colab import files, files.upload()
     * upload the JSON file into files (google.colab)
  * **Set up the directory using**:
      * !mkdir -p ~/.kaggle
@@ -47,7 +47,29 @@ graph TD
      * !chmod 600 ~/.kaggle/kaggle.json
   
 ### 3- Download the Dataset:
-* **Data Source**: Use the Kaggle API to download the dataset from Kaggle
 * **Dataset Link**: https://www.kaggle.com/datasets/tanishksharma9905/global-economic-indicators-20102025
+* **Run this code in Colab**: !kaggle datasets download -d tanishksharma9905/global-economic-indicators-20102025
+* **Unzip the Dataset**: ! unzip /content/global-economic-indicators-20102025.zip
 
+### 4- Import Required Libraries:
+* Pandas, Numpy, kagglehub, pymysql, sqlalchemy
+* If you didn't install these libraries before, use pip install (library name) to install it.
 
+### 5- Load Data:
+* using read_csv function from pandas.
+
+### 6- Explore the Data:
+* **Goal**: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
+* **Analysis**: Use functions like .info(), .describe(), .sample(), etc. to get a quick overview of the data structure and statistics.
+
+### 7- Data Cleaning:
+* **Handle Missing Values**: Using Global values to fill the missing values.
+
+### 8- Load Data into MySQL:
+* **Create Database in MySQL**: before uploading the dataset into MySQL, we did Create Database in the MySQL.
+* **Set Up Connections**: Connect to MySQL using sqlalchemy and load the cleaned data into the database.
+
+### 9- SQL Analysis:
+* **Write Questions to Solve using MySQL**: writing questions for each aspect with the interpretations.
+* **Solve the Questions**: solving the nine questions using Mysql.
+* **Download the answers**: downloading the csv file of each answer into the local device.
