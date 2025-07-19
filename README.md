@@ -80,10 +80,6 @@ graph TD
 
 ### 10- Power BI Visualization:
 * **Unpload the Answers**:
-
-### 11- Project Publishing and Documentation:
-* soon
-
 ___
 
 ## Requirments
