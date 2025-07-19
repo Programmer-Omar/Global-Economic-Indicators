@@ -7,6 +7,10 @@ This project demonstrates a complete end-to-end data pipeline built to analyze g
 ## Project Overview
 
 ```mermaid
+---
+title: Global Economic Indicators
+---
+
 graph TD
     subgraph Data Acquisition
         A[Kaggle API] --> B[Colab - Python Script]
