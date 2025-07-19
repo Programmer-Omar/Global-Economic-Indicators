@@ -73,3 +73,9 @@ graph TD
 * **Write Questions to Solve using MySQL**: writing questions for each aspect with the interpretations.
 * **Solve the Questions**: solving the nine questions using Mysql.
 * **Download the answers**: downloading the csv file of each answer into the local device.
+
+### 10- Power BI Visualization:
+* **Unpload the Answers**:
+
+### 11- Project Publishing and Documentation:
+* soon
