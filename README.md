@@ -4,6 +4,8 @@
 
 This project demonstrates a complete end-to-end data pipeline built to analyze global economic trends across more than 200 countries over a 15-year period (2010–2025). Using Python in Google Colab, I accessed a Kaggle dataset through the Kaggle API, performed thorough data cleaning (including handling missing values), and uploaded the processed data into a MySQL database. From there, I conducted structured queries to explore economic indicators such as inflation, interest rates, GDP, and more.
 
+---
+
 ## Project Overview
 
 ```mermaid
@@ -30,6 +32,8 @@ graph TD
 
     E --> F[End User - Interactive Dashboards]
 ```
+
+---
 
 ## Project Steps:
 
@@ -73,6 +77,8 @@ graph TD
 * **Write Questions to Solve using MySQL**: writing questions for each aspect with the interpretations.
 * **Solve the Questions**: solving the nine questions using Mysql.
 * **Download the answers**: downloading the csv file of each answer into the local device.
+
+---
 
 ### 10- Power BI Visualization:
 * **Unpload the Answers**:
