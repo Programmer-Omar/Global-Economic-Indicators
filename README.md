@@ -96,11 +96,11 @@ ___
 ---
 
 ## Project Structure
-|-- data                      # Raw data and transformed data
-|-- sql_queries               # SQL scripts for analysis and queries
-|-- notebooks                 # Google Colab for Python analysis
-|-- README.md                 # Project documentation
-|-- main.py                   # Main script for loading, cleaning, and processing data
+* **data**                      # Raw data and transformed data
+* **sql_queries**               # SQL scripts for analysis and queries
+* **notebooks**                 # Google Colab for Python analysis
+* **README.md**                 # Project documentation
+* **main.py**                   # Main script for loading, cleaning, and processing data
 
 ---
 
