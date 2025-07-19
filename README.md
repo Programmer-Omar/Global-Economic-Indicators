@@ -92,3 +92,33 @@ ___
 * **Python Libraries:**
     * pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
 * **Kaggle API Key** (for data downloading)
+
+---
+
+## Project Structure
+|-- data                      # Raw data and transformed data
+|-- sql_queries               # SQL scripts for analysis and queries
+|-- notebooks                 # Google Colab for Python analysis
+|-- README.md                 # Project documentation
+|-- main.py                   # Main script for loading, cleaning, and processing data
+
+---
+
+## Results and Insights
+* soon
+
+---
+
+## Future Enhancements
+* soon
+
+---
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+## Acknowledgments
+* Data Source: Kaggle’s Global Economic Indicators (2010–2025)- World bank
+
