@@ -31,4 +31,7 @@ graph TD
     E --> F[End User - Interactive Dashboards]
 ```
 
-after that
+## Project Steps:
+
+### 1- Set Up the Environment:
+* a
