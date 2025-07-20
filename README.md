@@ -79,7 +79,7 @@ graph TD
 * **Download the answers**: downloading the csv file of each answer into the local device.
 
 ### 10- Power BI Visualization:
-* **Unpload the Answers**:
+* **Unpload the Answers into Power BI app**: use the app to visualize the results into charts
 ___
 
 ## Requirments
@@ -106,7 +106,8 @@ ___
 ---
 
 ## Future Enhancements
-* soon
+* **Analyze all indicators:** analysing all the indicators will give the full picture and insight information
+* **Find the best and worst countries economically during the past 15 years**
 
 ---
 
