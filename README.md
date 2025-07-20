@@ -100,7 +100,9 @@ ___
 
 ---
 
-## Results and Insights
+## Results
+
+* **Here are some of the results that have been converted into charts using Power BI dashboard** 
 <img width="871" height="479" alt="image" src="https://github.com/user-attachments/assets/82eb252b-3a99-4e4d-b0e9-49142b2e6981" />
 
 
