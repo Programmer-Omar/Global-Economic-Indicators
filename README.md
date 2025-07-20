@@ -20,17 +20,17 @@ graph TD
 
 
     subgraph Data Processing & Storage
-        B --> C[Clean & Transform in Python]
+        B --> C[Clean & Prepare using Python]
         C --> D[MySQL Database]
     end
 
 
-    subgraph Data Visualization
-        D --> E[Power BI]
+    subgraph Data Analyzing
+        D --> E[MySQL]
     end
 
 
-    E --> F[End User - Interactive Dashboards]
+    E --> F[Data Visualization - Power BI]
 ```
 
 ---
